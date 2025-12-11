@@ -14,7 +14,7 @@
 
   &__link {
     position: relative;
-    transition: all $effectDuration;
+    transition: all $effect-duration;
 
     &--wide {
       @include on-tablet {
@@ -55,7 +55,7 @@
   &__description {
     margin: 0;
     font-weight: 400;
-    font-size: 16px;
+    font-size: $primary-font-size;
     line-height: 140%;
 
     @include on-desctop {
